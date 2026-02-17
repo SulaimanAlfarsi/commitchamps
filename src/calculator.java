@@ -14,6 +14,16 @@ public class calculator {
         System.out.println("Sum: " + sum);
         System.out.println("Difference: " + difference);
 
+        // Multiplication and Division
+        System.out.println("Enter first number:");
+        int num3 = scanner.nextInt();
+        System.out.println("Enter second number:");
+        int num4 = scanner.nextInt();
+        int product = num1 * num2;
+        int quotient = num1 / num2;
+        System.out.println("Product: " + product);
+        System.out.println("Quotient: " + quotient);
+
 
 
         scanner.close();

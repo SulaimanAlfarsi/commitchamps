@@ -4,7 +4,9 @@ import java.util.Scanner;
 public class calculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        // Multiplication and Division
+
+        // Addition and Subtraction
+
         System.out.println("Enter first number:");
         int num1 = scanner.nextInt();
         System.out.println("Enter second number:");
@@ -14,7 +16,12 @@ public class calculator {
         System.out.println("Product: " + product);
         System.out.println("Quotient: " + quotient);
 
+            // Multiplication and Division
 
+        int sum = num1 + num2;
+        int difference = num1 - num2;
+        System.out.println("Sum: " + sum);
+        System.out.println("Difference: " + difference);
 
 
 
